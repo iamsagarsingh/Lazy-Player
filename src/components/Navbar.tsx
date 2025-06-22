@@ -5,10 +5,10 @@ export const Navbar = () => {
             <img src={logo} alt="logo-navbar" className='h-[4rem] md:h-[6rem]'/>
             <h2 className='font-extrabold text-xl md:text-2xl text-blue-400'>Lazy Player</h2>
         </div>
-        <ul className='flex gap-2 md:gap-10 md:text-xl font-bold px-1'>
+        {/* <ul className='flex gap-2 md:gap-10 md:text-xl font-bold px-1'>
             <li>Music</li>
             <li>Songs</li>
             <li>Metals</li>
-        </ul>
+        </ul> */}
     </nav>
 }
