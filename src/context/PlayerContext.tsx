@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer } from "react";
+import { createContext, useContext } from "react";
 import type { Song } from "../types";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
